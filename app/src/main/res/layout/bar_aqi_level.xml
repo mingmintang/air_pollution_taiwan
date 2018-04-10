@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="24dp"
+    android:layout_height="72dp"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="12dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/bar_aqi_level_arrow6"
+            android:layout_width="match_parent"
+            android:layout_height="12dp"
+            android:contentDescription="AQI 301~500"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/ic_arrow_right_thick" />
+
+        <ImageView
+            android:id="@+id/bar_aqi_level_arrow5"
+            android:layout_width="match_parent"
+            android:layout_height="12dp"
+            android:contentDescription="AQI 201~300"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/ic_arrow_right_thick" />
+
+        <ImageView
+            android:id="@+id/bar_aqi_level_arrow4"
+            android:layout_width="match_parent"
+            android:layout_height="12dp"
+            android:contentDescription="AQI 151~200"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/ic_arrow_right_thick" />
+
+        <ImageView
+            android:id="@+id/bar_aqi_level_arrow3"
+            android:layout_width="match_parent"
+            android:layout_height="12dp"
+            android:contentDescription="AQI 101~150"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/ic_arrow_right_thick" />
+
+        <ImageView
+            android:id="@+id/bar_aqi_level_arrow2"
+            android:layout_width="match_parent"
+            android:layout_height="12dp"
+            android:contentDescription="AQI 51~100"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/ic_arrow_right_thick" />
+
+        <ImageView
+            android:id="@+id/bar_aqi_level_arrow1"
+            android:layout_width="match_parent"
+            android:layout_height="12dp"
+            android:contentDescription="AQI 0~50"
+            app:srcCompat="@drawable/ic_arrow_right_thick" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="12dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="12dp"
+            tools:background="#990000" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="12dp"
+            android:background="#990099" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="12dp"
+            android:background="#ff0000" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="12dp"
+            android:background="#ff9933" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="12dp"
+            android:background="#ffff00" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="12dp"
+            android:background="#00ff00" />
+    </LinearLayout>
+</LinearLayout>
